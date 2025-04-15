@@ -71,15 +71,14 @@ exit | Exit the shell
 
 
 ### Project Structure
-├── builtins/        # Built-in command implementations
-├── execution/       # Execution engine and redirections
-├── lexer/           # Lexical analysis
-├── parser/          # Command parsing
-├── tokenizer/       # Tokenization helpers
-├── sources/         # Main source files and utils
-├── Makefile         # Build system
-└── README.md        # This file!
-
+minishell/ ├── builtins/ # Built-in command implementations
+├── execution/ # Execution engine and redirections
+├── lexer/ # Lexical analysis
+├── parser/ # Command parsing
+├── tokenizer/ # Tokenization helpers
+├── sources/ # Main source files and utils
+├── Makefile # Build system
+└── README.md # This file!
 
 
 ### Bonus Ideas
